@@ -45,11 +45,13 @@ body {
     .card:hover {
         background: $primary;
         color: #fff;
+
+        .fab {
+            color: #fff;
+        }
     }
 
-    .fab {
-        color: #fff;
-    }
+
 }
 
 @media(max-width: 768px) {
